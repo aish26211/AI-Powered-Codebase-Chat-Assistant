@@ -1,0 +1,38 @@
+# Environment variables
+.env
+*.env
+
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Vector store (large files!)
+backend/vectorstore/
+vectorstore/
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build files
+frontend/build/
+*.log
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Test files
+test_vectorstore*/
+test_repo/
